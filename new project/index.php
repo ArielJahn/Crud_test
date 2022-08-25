@@ -67,6 +67,28 @@
     {
         include 'funcionarios/atualizar.php';
     }
+
+
+
+    
+    if (isset($_GET['pagina']) & $_GET['pagina'] == 'clientes_lista')
+    {
+        include 'clientes/listagem.php';
+    }
+    if (isset($_GET['pagina']) & $_GET['pagina'] == 'clientes_cadastro')
+    {
+        include 'clientes/cadastro.php';
+    }
+    if (isset($_GET['pagina']) & $_GET['pagina'] == 'clientes_deletar')
+    {
+        include 'clientes/deletar.php';
+    }
+    if (isset($_GET['pagina']) & $_GET['pagina'] == 'clientes_atualizar')
+    {
+        include 'clientes/atualizar.php';
+    }
+
+
 ?>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
