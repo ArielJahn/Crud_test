@@ -13,16 +13,28 @@
           <a class="nav-link active" aria-current="page" href="?pagina=produtos_cadastro">Cadastrar Produtos</a>
         </li>
         <li class="nav-item">
+
+        
           <a class="nav-link active" aria-current="page" href="?pagina=fornecedores_lista">Listar Fornecedores</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="?pagina=fornecedores_cadastro">Cadastrar Fornecedores</a>
         </li>
         <li class="nav-item">
+
+
           <a class="nav-link active" aria-current="page" href="?pagina=funcionarios_lista">Listar Funcionarios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="?pagina=funcionarios_cadastro">Cadastrar Funcionarios</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="?pagina=clientes_lista">Listar clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="?pagina=clientes_cadastro">Cadastrar Clientes</a>
         </li>
       </ul>
     </div>
